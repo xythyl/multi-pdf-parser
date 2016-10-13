@@ -1,10 +1,10 @@
-## multi-pdf-parser
+# multi-pdf-parser
 Parses a folder of pdfs and converts them into txt
-# How to Use
+## How to Use
 Create two folders, 'pdfs' and 'txt'. Place PDFs you need to be converted into
 the folder 'pdfs'. After running 
-> python output.py
+<code> python output.py </code>
 you should have the converted txt files in 'txt.'
-# How to Install
+## How to Install
 Run
-> sudo pip install --upgrade --ignore-installed slate==0.3 pdfminer==20110515
+<code> sudo pip install --upgrade --ignore-installed slate==0.3 pdfminer==20110515 </code>
